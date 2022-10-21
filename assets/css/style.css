@@ -9,16 +9,23 @@
 body {
     font-family: Cantarell, sans-serif;
     font-weight: 600;
+    font-size: 100%;
     color: #4d4d4d;
     max-width: 2000px;
     margin-right: auto;
     margin-left: auto;
 }
 
-/* invisible header h1 */
+/* headers */
 
 #header-h1 {
     display: none;
+}
+
+h2 {
+   color: #DE7544;
+   text-transform: uppercase;
+   text-align: center;
 }
 
 /* navigation links */
@@ -74,4 +81,22 @@ nav {
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: 100%;
+}
+
+/* about */
+
+#about {
+    text-align: center;
+}
+
+#about-list {
+    list-style: none;
+}
+
+#about-section {
+    max-width: 2000px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75vw;
+
 }
