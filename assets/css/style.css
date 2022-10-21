@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -16,9 +16,8 @@ body {
 
 #logo {
     width: 30vw;
-    height: 22vh;
     position: relative;
-    top: 20px;
+    top: 16px;
     left: 25px;
 }
 
@@ -50,4 +49,13 @@ body {
 
 .active {
     border-bottom: 2px solid #609BA7;
+}
+
+/* hero image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: 50%;
 }
