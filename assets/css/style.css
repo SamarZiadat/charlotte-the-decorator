@@ -12,7 +12,13 @@ body {
     color: #4d4d4d;
 }
 
-/* header logo */
+/* invisible header h1 */
+
+#header-h1 {
+    display: none;
+}
+
+/* navigation links */
 
 #logo {
     width: 30vw;
@@ -20,8 +26,6 @@ body {
     top: 16px;
     left: 25px;
 }
-
-/* navigation links */
 
 #menu {
     font-size: 100%;
@@ -54,8 +58,8 @@ body {
 /* hero image */
 
 #hero-image {
-    height: 600px;
+    height: 850px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
-    background-size: 50%;
+    background-size: 100%;
 }
