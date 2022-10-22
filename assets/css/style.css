@@ -92,14 +92,6 @@ nav {
 
 /* about */
 
-#about {
-    text-align: center;
-}
-
-#about-list {
-    list-style: none;
-}
-
 #about-section {
     max-width: 2000px;
     margin-right: auto;
@@ -107,5 +99,20 @@ nav {
     width: 75vw;
 
 }
+
+#about-text {
+    height: 200px;
+    width: 80%;
+    position: relative;
+    float: right;
+    top: -230px;
+}
+
+#about-image {
+    height: 230px;
+    width: 17%;
+    background: url('../images/client-portrait.jpg') no-repeat center center;
+    background-size: 100%;
+    }
 
 /* services */
