@@ -109,17 +109,17 @@ nav {
 #about-text {
     height: 200px;
     width: 80%;
-    /* position: relative;
-    float: right; */
     top: -230px;
     z-index: -1;
+    float: right;
 }
 
 #about-image {
-    height: 230px;
+    height: 210px;
     width: 17%;
     background: url('../images/client-portrait.jpg') no-repeat center center;
     background-size: 100%;
+    float: left;
     }
 
 /* services */
