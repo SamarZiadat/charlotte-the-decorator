@@ -16,6 +16,21 @@ body {
     margin-left: auto;
 }
 
+.teal-section {
+    max-width: 2000px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100vw;
+    background: rgb(96, 155, 167, 0.2); 
+}
+
+.white-section {
+    max-width: 2000px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100vw;
+}
+
 /* headers */
 
 #header-h1 {
@@ -26,6 +41,7 @@ h2 {
    color: #DE7544;
    text-transform: uppercase;
    text-align: center;
+   letter-spacing: 1px;
 }
 
 h3 {
@@ -92,13 +108,6 @@ nav {
 
 /* about */
 
-.section-styling {
-    max-width: 2000px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100vw;
-}
-
 #about-div {
     max-width: 2000px;
     margin-right: auto;
@@ -120,7 +129,7 @@ nav {
     background: url('../images/client-portrait.jpg') no-repeat center center;
     background-size: 100%;
     float: left;
-    }
+}
 
 /* services */
 
@@ -134,6 +143,10 @@ nav {
 }
 
 /* testimonials */
+
+#testimonials-section {
+    background: rgb(96, 155, 167, 0.2);
+}
 
 #testimonials-div {
     max-width: 2000px;
