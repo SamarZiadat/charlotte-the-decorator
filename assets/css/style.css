@@ -112,6 +112,7 @@ nav {
     position: relative;
     float: right;
     top: -230px;
+    z-index: -1;
 }
 
 #about-image {
@@ -128,6 +129,3 @@ nav {
     margin-right: auto;
     margin-left: auto;
 }
-
-/* testimonials */
-
