@@ -177,3 +177,9 @@ tr:nth-child(even) {
 .author {
     font-style: normal;
 }
+
+/* footer */
+
+#copyright {
+    text-align: right;
+}
