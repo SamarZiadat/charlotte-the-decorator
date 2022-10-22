@@ -92,12 +92,18 @@ nav {
 
 /* about */
 
-#about-section {
+.section-styling {
     max-width: 2000px;
     margin-right: auto;
     margin-left: auto;
     width: 75vw;
+}
 
+#about-div {
+    max-width: 2000px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75vw;
 }
 
 #about-text {
@@ -116,3 +122,12 @@ nav {
     }
 
 /* services */
+
+#services-div {
+    max-width: 2000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* testimonials */
+
