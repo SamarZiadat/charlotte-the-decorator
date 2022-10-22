@@ -128,4 +128,7 @@ nav {
     max-width: 2000px;
     margin-right: auto;
     margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
