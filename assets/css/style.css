@@ -144,16 +144,16 @@ nav {
     width: 75vw;
 }
 
+table {
+    padding: 1em 1em;
+}
+
 th {
     text-align: left;
 }
 
 tr:nth-child(even) {
     background-color: rgb(222, 117, 68, 0.1);
-}
-
-table {
-    padding: 1em 1em;
 }
 
 /* testimonials */
