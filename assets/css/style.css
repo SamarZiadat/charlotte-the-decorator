@@ -180,6 +180,10 @@ tr:nth-child(even) {
     font-style: normal;
 }
 
+i {
+    color: rgb(96, 155, 167);
+}
+
 /* contact form */
 
 #form-div {
