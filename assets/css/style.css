@@ -58,11 +58,12 @@ h3 {
 /* navigation links */
 
 header{
-    position: fixed; 
     left: 0;
     width: 100%;
     background-color: white;
     height: 12em;
+    position: sticky;
+    top: 0;
 }
 
 nav {
@@ -104,7 +105,7 @@ nav {
 /* hero image */
 
 #hero-image {
-    height: 100vh;
+    height: 50em;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: 100%;
