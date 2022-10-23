@@ -225,6 +225,22 @@ input[type=submit] {
 
 /* footer */
 
+footer {
+    max-width: 2000px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100vw;
+    background-color: white;
+}
+
+#footer {
+    max-width: 2000px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100vw;
+    background-color: white;
+}
+
 #copyright {
     text-align: right;
 }
