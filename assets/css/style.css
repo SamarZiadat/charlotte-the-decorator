@@ -35,7 +35,7 @@ body {
     padding: 2em 2em;
 }
 
-/* headers */
+/* headings */
 
 #header-h1 {
     display: none;
@@ -57,24 +57,30 @@ h3 {
 
 /* navigation links */
 
+header{
+    position: fixed; 
+    left: 0;
+    width: 100%;
+    background-color: white;
+    height: 12em;
+}
+
 nav {
-    position: fixed;
     max-width: 2000px;
     margin-right: auto;
     margin-left: auto;
-    background: white;
-    width: 100vw;
     padding: 2em 2em 0 2em;
 }
 
 #logo {
     height: 8em;
-    position: relative;
+
 }
 
 #menu {
     font-size: 100%;
     letter-spacing: 1px;
+    padding-right: 2em;
 }
 
 #menu li {
@@ -92,10 +98,6 @@ nav {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #609BA7;
-}
-
-.active {
     border-bottom: 2px solid #609BA7;
 }
 
