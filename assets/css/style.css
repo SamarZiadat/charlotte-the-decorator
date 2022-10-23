@@ -119,18 +119,19 @@ nav {
 
 #columns {
     display: flex;
+    justify-content: center;
 }
 
 #about-text {
-    height: 200px;
+    height: 10em;
     width: 80%;
     z-index: -1;
     padding-left: 2em;
 }
 
 #about-image {
-    height: 210px;
-    width: 17%;
+    height: 13em;
+    width: 10em;
     background: url('../images/client-portrait.jpg') no-repeat center center;
     background-size: 100%;
 }
