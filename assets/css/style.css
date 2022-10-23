@@ -24,7 +24,7 @@ body {
     margin-left: auto;
     width: 100vw;
     background: rgb(96, 155, 167, 0.2); 
-    padding: 1em 1em;
+    padding: 2em 2em;
 }
 
 .white-section {
@@ -32,7 +32,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     width: 100vw;
-    padding: 1em 1em;
+    padding: 2em 2em;
 }
 
 /* headers */
