@@ -180,6 +180,43 @@ tr:nth-child(even) {
     font-style: normal;
 }
 
+/* contact form */
+
+#form-div {
+    max-width: 2000px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40vw;
+}
+
+form {
+    background-color: rgb(222, 117, 68, 0.1);
+    padding: 1em;
+    border: 2px solid rgb(222, 117, 68, 0.7);
+    border-radius: 4px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px 14px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border: 2px solid rgb(222, 117, 68, 0.7);
+    border-radius: 4px;
+    font-family: Cantarell, sans-serif;
+    font-weight: 600;
+    font-size: 100%;
+    color: #4d4d4d;
+    resize: none;
+}
+
+input[type=submit] {
+    background-color: rgb(222, 117, 68);
+    cursor: pointer;
+    color: white;
+  }
+  
+
 /* footer */
 
 #copyright {
