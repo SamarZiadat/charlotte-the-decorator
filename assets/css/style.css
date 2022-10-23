@@ -152,7 +152,9 @@ nav {
 }
 
 table {
-    padding: 1em 1em;
+    padding: 1em;
+    border: 2px solid rgb(222, 117, 68, 0.7);
+    border-radius: 4px;
 }
 
 th {
@@ -195,7 +197,7 @@ i {
     max-width: 2000px;
     margin-right: auto;
     margin-left: auto;
-    width: 60vw;
+    width: 75vw;
 }
 
 form {
