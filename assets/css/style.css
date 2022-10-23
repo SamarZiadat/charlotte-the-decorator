@@ -119,12 +119,15 @@ nav {
     width: 75vw;
 }
 
+#columns {
+    display: flex;
+}
+
 #about-text {
     height: 200px;
     width: 80%;
-    top: -230px;
     z-index: -1;
-    float: right;
+    padding-left: 2em;
 }
 
 #about-image {
@@ -132,7 +135,6 @@ nav {
     width: 17%;
     background: url('../images/client-portrait.jpg') no-repeat center center;
     background-size: 100%;
-    float: left;
 }
 
 /* services */
@@ -215,7 +217,7 @@ input, textarea {
 }
 
 input[type=submit] {
-    background-color: rgb(222, 117, 68);
+    background-color: rgb(222, 117, 68, 0.8);
     cursor: pointer;
     color: white;
   }
