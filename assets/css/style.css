@@ -229,7 +229,7 @@ footer {
     margin-right: auto;
     margin-left: auto;
     width: 100vw;
-    background-color: white;
+    background-color: rgb(96, 155, 167, 0.2); 
 }
 
 #footer {
@@ -237,8 +237,12 @@ footer {
     margin-right: auto;
     margin-left: auto;
     width: 100vw;
-    background-color: white;
+    background-color: rgb(96, 155, 167, 0.2); 
     padding: 2em;
+}
+
+#footer-heading {
+    color: #4d4d4d;;
 }
 
 #copyright {
