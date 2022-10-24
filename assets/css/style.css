@@ -79,7 +79,6 @@ nav {
 
 @media only screen and (max-width: 600px) {
     #logo-div {
-        height: 8em;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -95,12 +94,12 @@ nav {
 }
 
 #menu li {
+    list-style-type: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    list-style-type: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -228,6 +227,7 @@ form {
     padding: 1em;
     border: 2px solid rgb(222, 117, 68, 0.7);
     border-radius: 4px;
+    max-width: 700px;
 }
 
 input, textarea {
