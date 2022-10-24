@@ -85,12 +85,24 @@ nav {
 }
 
 #menu li {
-    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     list-style-type: none;
-    margin-right: 2em;
-    position: relative;
-    bottom: 5em;
 }
+
+@media only screen and (max-width: 600px) {
+    #menu li {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+    }
+  }
 
 #menu a {
     text-decoration: none;
