@@ -105,7 +105,7 @@ nav {
 /* hero image */
 
 #hero-image {
-    height: 49em;
+    height: 50em;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: 100%;
@@ -124,6 +124,7 @@ nav {
 #columns {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 2em;
 }
 
