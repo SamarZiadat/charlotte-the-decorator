@@ -251,10 +251,11 @@ footer {
 }
 
 #footer {
-    max-width: 2000px;
+    max-width: 310px;
     margin-right: auto;
     margin-left: auto;
     width: 98vw;
+    text-align: center;
 }
 
 #footer-heading {
