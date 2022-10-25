@@ -94,12 +94,12 @@ nav {
 }
 
 #menu li {
-    list-style-type: none;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    list-style-type: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -126,10 +126,11 @@ nav {
 /* hero image */
 
 #hero-image {
-    height: 50em;
-    width: 100%;
+    height: 100vw;
+    max-height: 500px;
+    min-height: 350px;
     background: url('../images/hero-image.jpg') no-repeat center center;
-    background-size: 100%;
+    background-size: cover;
 }
 
 /* about */
