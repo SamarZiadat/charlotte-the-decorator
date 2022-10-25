@@ -24,7 +24,7 @@ body {
     margin-left: auto;
     width: 100vw;
     background: rgb(96, 155, 167, 0.2); 
-    padding: 4em 0 4em 0;
+    padding: 4em 0 7em 0;
 }
 
 .white-section {
@@ -32,7 +32,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     width: 100vw;
-    padding: 4em 0 4em 0;
+    padding: 4em 0 7em 0;
 }
 
 /* headings */
@@ -46,6 +46,7 @@ h2 {
    text-transform: uppercase;
    text-align: center;
    letter-spacing: 0.10em;
+   padding: 2em 0 3em 0;
 }
 
 h3 {
