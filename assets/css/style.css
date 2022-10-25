@@ -144,10 +144,22 @@ nav {
 
 #columns {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 2em;
 }
+
+@media only screen and (max-width: 600px) {
+    #columns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 2em;
+    }
+  }
 
 #about-text {
     min-height: 10em;
