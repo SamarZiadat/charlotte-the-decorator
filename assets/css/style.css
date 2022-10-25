@@ -55,7 +55,7 @@ h3 {
     letter-spacing: 0.10em;
 }
 
-/* navigation links */
+/* navigation */
 
 header{
     left: 0;
@@ -71,6 +71,13 @@ nav {
     margin-right: auto;
     margin-left: auto;
     padding: 2em 2em 0 2em;
+    display: flex;
+    gap: 1em;
+}
+
+#index-link {
+    display: flex;
+    margin-left: auto;
 }
 
 #logo {
@@ -98,6 +105,7 @@ nav {
     justify-content: space-around;
     align-items: flex-end;
     list-style-type: none;
+    gap: 2em;
 }
 
 @media only screen and (max-width: 600px) {
