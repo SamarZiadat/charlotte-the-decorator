@@ -93,20 +93,17 @@ nav {
     height: 8em;
 }
 
-#menu li {
+#menu {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: baseline;
+    justify-content: space-around;
+    align-items: flex-end;
     list-style-type: none;
 }
 
 @media only screen and (max-width: 600px) {
-    #menu li {
+    #menu {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         list-style-type: none;
