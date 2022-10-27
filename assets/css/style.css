@@ -80,13 +80,6 @@ nav {
     display: flex;
 }
 
-@media only screen and (max-width: 600px) {
-    #index-link {
-        display: flex;
-        align-items: center;
-    }
-  }
-
 #logo {
     height: 7em;
 }
@@ -115,8 +108,6 @@ nav {
         align-items: center;
         list-style-type: none;
         gap: 0;
-        margin-left: auto;  
-        margin-right: auto;
     }
   }
 
