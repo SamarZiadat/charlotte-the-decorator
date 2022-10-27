@@ -18,7 +18,7 @@ Charlotte J. Sammons Interior Decorating is a website that aims to keep clients 
 - As a First Time Visitor, I want to be able to read testimonials from past customers to determine their reputation and if they are trusted.
 - As a First Time Visitor, I want to be able to learn about the qualifications of those who will deliver the businesses' services.
 - As a First Time Visitor I want to be to view up-to-date examples of the businesses' portfolio of work.
-- As a Returning Visitor, I want to be able to contact the business to request a service or ask questions.
+- As a First Time Visitor, I want to be able to contact the business to request a service or ask questions.
 
 #### Returning Visitor Goals
 
@@ -29,7 +29,7 @@ Charlotte J. Sammons Interior Decorating is a website that aims to keep clients 
 
 - As a Frequent User, I want to be to view newly added examples of the businesses' portfolio of work.
 - As a Frequent User, I want to be able to check new services the business offers.
-- As a Returning Visitor, I want to be able to contact the business to request a service, ask questions, follow-up on existing communications, or leave feedback.
+- As a Frequent User, I want to be able to contact the business to request a service, ask questions, follow-up on existing communications, or leave feedback.
 
 ## Design
 
