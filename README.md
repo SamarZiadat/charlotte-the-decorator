@@ -1,4 +1,4 @@
-# Charlotte J. Sammons Interior Decorating
+<h1 align="center">Charlotte J. Sammons Interior Decorating</h1>
 
 [View the live project here](link)
 
