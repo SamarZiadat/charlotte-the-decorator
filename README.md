@@ -10,26 +10,26 @@ Charlotte J. Sammons Interior Decorating is a website that aims to keep clients 
 
 ### User Stories
 
-#### First Time Visitor Goals
+- #### First Time Visitor Goals
 
-- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-- As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-- As a First Time Visitor, I want to be able to easily navigate to and view the business' services.
-- As a First Time Visitor, I want to be able to read testimonials from past customers to determine their reputation and if they are trusted.
-- As a First Time Visitor, I want to be able to learn about the qualifications of those who will deliver the businesses' services.
-- As a First Time Visitor I want to be to view up-to-date examples of the businesses' portfolio of work.
-- As a First Time Visitor, I want to be able to contact the business to request a service or ask questions.
+    - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    - As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+    - As a First Time Visitor, I want to be able to easily navigate to and view the business' services.
+    - As a First Time Visitor, I want to be able to read testimonials from past customers to determine their reputation and if they are trusted.
+        - As a First Time Visitor, I want to be able to learn about the qualifications of those who will deliver the businesses' services.
+    - As a First Time Visitor I want to be to view up-to-date examples of the businesses' portfolio of work.
+    - As a First Time Visitor, I want to be able to contact the business to request a service or ask questions.
 
-#### Returning Visitor Goals
+- #### Returning Visitor Goals
 
-- As a Returning Visitor, I want to be able to access and view the businesses' services quickly and easily.
-- As a Returning Visitor, I want to be able to contact the business to request a service or ask questions.
+    - As a Returning Visitor, I want to be able to access and view the businesses' services quickly and easily.
+    - As a Returning Visitor, I want to be able to contact the business to request a service or ask questions.
 
-#### Frequent User Goals
+- #### Frequent User Goals
 
-- As a Frequent User, I want to be to view newly added examples of the businesses' portfolio of work.
-- As a Frequent User, I want to be able to check new services the business offers.
-- As a Frequent User, I want to be able to contact the business to request a service, ask questions, follow-up on existing communications, or leave feedback.
+    - As a Frequent User, I want to be to view newly added examples of the businesses' portfolio of work.
+    - As a Frequent User, I want to be able to check new services the business offers.
+    - As a Frequent User, I want to be able to contact the business to request a service, ask questions, follow-up on existing communications, or leave feedback.
 
 ## Design
 
@@ -54,22 +54,22 @@ Imagery is important. The large, background hero image is designed to be strikin
 
 ## Frameworks, Libraries & Programs Used
 1. [Hover.css](https://ianlunn.github.io/Hover/):
-- Hover.css was used on the navigation links in the header and Social Media link in the footer to add the underline while being hovered over.
+    - Hover.css was used on the navigation links in the header and Social Media link in the footer to add the underline while being hovered over.
 
 2. [Google Fonts](https://fonts.google.com/):
-- Google fonts were used to import the 'Cantarell' font into the style.css file which is used throughout the project.
+    - Google fonts were used to import the 'Cantarell' font into the style.css file which is used throughout the project.
 
 3. [Font Awesome](https://fontawesome.com/):
-- Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
+    - Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
 
 4. [Git](https://git-scm.com/):
-- Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 5. [GitHub](https://github.com/):
-- GitHub is used to store the projects code after being pushed from Git.
+    - GitHub is used to store the projects code after being pushed from Git.
 
 6. [Balsamiq](https://balsamiq.com/):
-- Balsamiq was used to create the wireframes during the design process.
+    - Balsamiq was used to create the wireframes during the design process.
 
 
 
