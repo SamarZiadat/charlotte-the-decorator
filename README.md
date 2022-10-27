@@ -53,23 +53,23 @@ Imagery is important. The large, background hero image is designed to be strikin
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ## Frameworks, Libraries & Programs Used
-1. Hover.css:
-Hover.css was used on the navigation links in the header and Social Media link in the footer to add the underline while being hovered over.
+1. [Hover.css](https://ianlunn.github.io/Hover/):
+- Hover.css was used on the navigation links in the header and Social Media link in the footer to add the underline while being hovered over.
 
-2. Google Fonts:
-Google fonts were used to import the 'Cantarell' font into the style.css file which is used throughout the project.
+2. [Google Fonts](https://fonts.google.com/):
+- Google fonts were used to import the 'Cantarell' font into the style.css file which is used throughout the project.
 
-3. Font Awesome:
-Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
+3. [Font Awesome](https://fontawesome.com/):
+- Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
 
-4. Git
-Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+4. [Git](https://git-scm.com/):
+- Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-5. GitHub:
-GitHub is used to store the projects code after being pushed from Git.
+5. [GitHub](https://github.com/):
+- GitHub is used to store the projects code after being pushed from Git.
 
-6. Balsamiq:
-Balsamiq was used to create the wireframes during the design process.
+6. [Balsamiq](https://balsamiq.com/):
+- Balsamiq was used to create the wireframes during the design process.
 
 
 
