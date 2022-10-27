@@ -8,42 +8,47 @@ Charlotte J. Sammons Interior Decorating is a website that aims to keep clients 
 
 ## User experience (UX)
 
-First Time Visitor Goals
+### User Stories
 
-As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+#### First Time Visitor Goals
 
-As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-As a First Time Visitor, I want to be able to easily navigate to and view the business' services.
+- As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
-As a First Time Visitor, I want to be able to read testimonials from past customers to determine their reputation and if they are trusted.
+- As a First Time Visitor, I want to be able to easily navigate to and view the business' services.
 
-As a First Time Visitor, I want to be able to learn about the qualifications of those who will deliver the businesses' services.
+- As a First Time Visitor, I want to be able to read testimonials from past customers to determine their reputation and if they are trusted.
 
-As a First Time Visitor I want to be to view up-to-date examples of the businesses' portfolio of work.
+- As a First Time Visitor, I want to be able to learn about the qualifications of those who will deliver the businesses' services.
 
-As a Returning Visitor, I want to be able to contact the business to request a service or ask questions.
+- As a First Time Visitor I want to be to view up-to-date examples of the businesses' portfolio of work.
 
-B. Returning Visitor Goals
+- As a Returning Visitor, I want to be able to contact the business to request a service or ask questions.
 
-As a Returning Visitor, I want to be able to access and view the businesses' services quickly and easily.
+#### Returning Visitor Goals
 
-As a Returning Visitor, I want to be able to contact the business to request a service or ask questions.
+- As a Returning Visitor, I want to be able to access and view the businesses' services quickly and easily.
 
-C. Frequent User Goals
+- As a Returning Visitor, I want to be able to contact the business to request a service or ask questions.
 
-As a Frequent User, I want to be to view newly added examples of the businesses' portfolio of work.
+#### Frequent User Goals
 
-As a Frequent User, I want to be able to check new services the business offers.
+- As a Frequent User, I want to be to view newly added examples of the businesses' portfolio of work.
 
-As a Returning Visitor, I want to be able to contact the business to request a service, ask questions, follow-up on existing communications, or leave feedback.
+- As a Frequent User, I want to be able to check new services the business offers.
+
+- As a Returning Visitor, I want to be able to contact the business to request a service, ask questions, follow-up on existing communications, or leave feedback.
 
 ## Design
-Colour Scheme
-The two main colours used are Code Insititue red, and white.
-Typography
-The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
-Imagery
-Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+
+### Colour Scheme
+The two main colours used are the teal and orange colours from the business logo and white.
+
+### Typography
+The Cantarell font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Cantarell is the font used in the company logo, which reinforces the business' branding. It is crisp and easy to read which is appropriate for legibility. It is also a stylish font, which reflects the aesthetic nature of the business. 
+
+### Imagery
+Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It is also an image from the client's portfolio of work, and so showcases their skills and style.
 
 
