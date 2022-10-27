@@ -40,6 +40,38 @@ The two main colours used are the teal and orange colours from the business logo
 The Cantarell font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Cantarell is the font used in the company logo, which reinforces the business' branding. It is crisp and easy to read which is appropriate for legibility. It is also a stylish font, which reflects the aesthetic nature of the business. 
 
 ### Imagery
-Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It is also an image from the client's portfolio of work, and so showcases their skills and style.
+Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It is also an image from the client's portfolio of work, and so showcases their skills and style. The business logo is also featured, which aims to make the businesses' branding recognisable to the client. A smiling image of the business owener is also included to reinforce the friendly and approachable reputation of the company. 
+
+### Wireframes
+
+## Features 
+
+## Technologies Used
+
+## Languages Used
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+## Frameworks, Libraries & Programs Used
+1. Hover.css:
+Hover.css was used on the navigation links in the header and Social Media link in the footer to add the underline while being hovered over.
+
+2. Google Fonts:
+Google fonts were used to import the 'Cantarell' font into the style.css file which is used throughout the project.
+
+3. Font Awesome:
+Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
+
+4. Git
+Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+5. GitHub:
+GitHub is used to store the projects code after being pushed from Git.
+
+6. Balsamiq:
+Balsamiq was used to create the wireframes during the design process.
+
+
+
 
 
