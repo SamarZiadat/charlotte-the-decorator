@@ -90,6 +90,15 @@ nav {
     height: 7em;
 }
 
+@media only screen and (max-width: 1000px) {
+    #menu {
+        font-size: 80%;
+        letter-spacing: 0.10em;
+        height: 9em;
+        text-align: right;
+    }
+  }
+
 #menu {
     display: flex;
     flex-direction: row;
@@ -100,12 +109,12 @@ nav {
     margin-left: auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     #menu {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: stretch;
         list-style-type: none;
         gap: 0;
     }
