@@ -61,6 +61,10 @@ padding: 0 100px 0 100px;
 #logo {
 height: 7em;
 }
+/* The approach I have taken by using a checkbox to create dropdown navigation without Javascript is unusual.
+This unique dropdown menu was created with guidance from Kevin Powell's tutorial 
+on youtube (https://www.youtube.com/watch?v=8QKOaTYvYUA) titled "Create a responsive 
+navigation nav with no JS!" */
 .nav-toggle {
 position: absolute !important;
 top: -9999px !important;
@@ -78,7 +82,7 @@ align-items: center;
 .nav-toggle-label span,
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
-display: block;
+display: block; 
 background: #609BA7;
 height: 3px;
 width: 2em;
