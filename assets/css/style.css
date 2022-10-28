@@ -17,6 +17,9 @@ margin-left: auto;
 p {
 text-align: justify;
 }
+footer p {
+text-align: center;
+}
 }
 /* sections */
 section {
