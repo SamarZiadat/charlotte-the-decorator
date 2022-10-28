@@ -205,6 +205,7 @@ nav a::before {
       transform: scale(0, 1);
       transition: transform ease-in-out 250ms;
 }
+}
 
 /* hero image */
 
@@ -218,14 +219,6 @@ nav a::before {
 
 /* about */
 
-#about-div {
-    max-width: 2000px;
-    min-height: 18em;
-    margin-right: auto;
-    margin-left: auto;
-    width: 75vw;
-}
-
 #columns {
     display: flex;
     flex-direction: row;
@@ -234,7 +227,7 @@ nav a::before {
     gap: 2em;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     #columns {
         display: flex;
         flex-direction: column;
@@ -260,17 +253,10 @@ nav a::before {
 
 /* services */
 
-#services-div {
-    max-width: 700px;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    flex-direction: column;
-    width: 75vw;
-}
-
 table {
     padding: 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 th {
@@ -282,17 +268,6 @@ tr:nth-child(even) {
 }
 
 /* testimonials */
-
-#testimonials-section {
-    background: rgb(96, 155, 167, 0.2);
-}
-
-#testimonials-div {
-    max-width: 2000px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 75vw;
-}
 
 .container {
     padding: 1em 1em;
@@ -308,13 +283,6 @@ i {
 }
 
 /* contact form */
-
-#form-div {
-    max-width: 700px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 75vw;
-}
 
 form {
     background-color: rgb(222, 117, 68, 0.1);
@@ -358,15 +326,6 @@ footer {
     margin-left: auto;
     width: 100vw;
     background-color: rgb(96, 155, 167, 0.2); 
-}
-
-#footer {
-    max-width: 310px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 98vw;
-    text-align: center;
-    padding: 2em 0em 2em 0;
 }
 
 #footer-heading {
