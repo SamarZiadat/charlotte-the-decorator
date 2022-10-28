@@ -145,7 +145,6 @@ grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
 grid-column: 2 / 3;
 }
 nav {
-// all: unset;
 position: relative;
 text-align: left;
 transition: none;
