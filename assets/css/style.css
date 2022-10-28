@@ -16,6 +16,12 @@ body {
     margin-left: auto;
 } 
 
+@media only screen and (max-width: 1000px) {
+    p {
+        text-align: justify;
+  }
+}
+
 /* sections */
 
 section {
