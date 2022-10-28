@@ -179,6 +179,12 @@ transition: transform ease-in-out 250ms;
 }
 }
 /* hero image */
+#hero-section {
+padding-left: 0 !important;
+padding-right: 0 !important;
+padding-top: 0 !important;
+padding-bottom: 0 !important;
+}
 #hero-image {
 height: 100vw;
 max-height: 500px;
