@@ -10,20 +10,16 @@ Charlotte J. Sammons Interior Decorating is a website that aims to keep clients 
 
 ### User Stories
 - #### First Time Visitor Goals
-    - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-    - As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-    - As a First Time Visitor, I want to be able to easily navigate to and view the business' services.
-    - As a First Time Visitor, I want to be able to read testimonials from past customers to determine their reputation and if they are trusted.
-    - As a First Time Visitor, I want to be able to learn about the qualifications of those who will deliver the businesses' services.
-    - As a First Time Visitor I want to be to view up-to-date examples of the businesses' portfolio of work.
-    - As a First Time Visitor, I want to be able to contact the business to request a service or ask questions.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+    3. As a First Time Visitor, I want to be able to read testimonials from past customers to determine their reputation and if they are trusted.
 - #### Returning Visitor Goals
-    - As a Returning Visitor, I want to be able to access and view the businesses' services quickly and easily.
-    - As a Returning Visitor, I want to be able to contact the business to request a service or ask questions.
+    1. As a Returning Visitor, I want to be able to access and view the businesses' services quickly and easily.
+    2. As a Returning Visitor, I want to be able to contact the business to request a service or ask questions.
 - #### Frequent User Goals
-    - As a Frequent User, I want to be to view newly added examples of the businesses' portfolio of work.
-    - As a Frequent User, I want to be able to check new services the business offers.
-    - As a Frequent User, I want to be able to contact the business to request a service, ask questions, follow-up on existing communications, or leave feedback.
+    1. As a Frequent User, I want to be to view newly added examples of the businesses' portfolio of work.
+    2. As a Frequent User, I want to be able to check new services the business offers.
+    2. As a Frequent User, I want to be able to contact the business to request a service, ask questions, follow-up on existing communications, or leave feedback.
 ## Design
 ### Colour Scheme
 The two main colours used are the teal and orange colours from the business logo and white.
@@ -35,6 +31,8 @@ Imagery is important. The large, background hero image is designed to be strikin
 ### Wireframes
 
 ## Features 
+- Responsive on all device sizes
+- Interactive elements
 
 ## Technologies Used
 
@@ -56,7 +54,24 @@ Imagery is important. The large, background hero image is designed to be strikin
 6. [Balsamiq](https://balsamiq.com/):
     - Balsamiq was used to create the wireframes during the design process.
 ## Testing
-
+### Testing User Stories from User Experience (UX) Section
+- #### First Time Visitor Goals
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    - Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the section of their choice. Underneath there is a Hero Image, which is followed by an 'about section.
+    - The user has two options, click the navigation buttons or scroll down, both of which will lead to the same place, to learn more about the business.
+    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+    - The site has been designed to be fluid and never to entrap the user. The navigation bar is fixed and follows the user's scroll, each link describes what the page they will end up at clearly.
+    3. As a First Time Visitor, I want to be able to read testimonials from past customers to determine their reputation and if they are trusted.
+    - Once the new visitor has read the About and Services sections, they will notice the Testimonials section.
+    - The user can also scroll to the bottom of the site to locate social media links in the footer. 
+    - The navigation in the header, which is fixed and so follows the user as they scroll, also includes a link to the business' instagram portfolio of work.
+- #### Returning Visitor Goals
+    1. As a Returning Visitor, I want to be able to access and view the businesses' services quickly and easily.
+    2. As a Returning Visitor, I want to be able to contact the business to request a service or ask questions.
+- #### Frequent User Goals
+    1. As a Frequent User, I want to be to view newly added examples of the businesses' portfolio of work.
+    2. As a Frequent User, I want to be able to check new services the business offers.
+    2. As a Frequent User, I want to be able to contact the business to request a service, ask questions, follow-up on existing communications, or leave feedback.
 ## Deployment
 ### GitHub Pages
 The project was deployed to GitHub Pages using the following steps...
