@@ -124,7 +124,8 @@ All content was written by the developer
 - Code on how to style tables with CSS was based on [W3Schools CSS Tables Tutorial](https://www.w3schools.com/css/css_table.asp)
 - The icons in the testimonials section, about section, and footer were taken from [Font Awesome](https://fontawesome.com/)
 -The font used were imported from [Google Fonts](https://fonts.google.com/)
-- All images were taken by the client. 
+### Media
+- All images were taken by the client for their business.
 ### Acknowledgments
 Thank you to my mentor Brian Macharia who gave me very excellent advice and feedback on how to plan and execute this project and who provided me with lots of pointers on resources to help with design, coding and testing.
 
