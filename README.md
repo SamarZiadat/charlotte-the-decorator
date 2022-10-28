@@ -54,6 +54,11 @@ Imagery is important. The large, background hero image is designed to be strikin
 6. [Balsamiq](https://balsamiq.com/):
     - Balsamiq was used to create the wireframes during the design process.
 ## Testing
+The W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors in the project.
+
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [W3C Markup Validation Service](https://validator.w3.org/)
+
 ### Testing User Stories from User Experience (UX) Section
 - #### First Time Visitor Goals
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
@@ -67,11 +72,19 @@ Imagery is important. The large, background hero image is designed to be strikin
     - The navigation in the header, which is fixed and so follows the user as they scroll, also includes a link to the business' instagram portfolio of work.
 - #### Returning Visitor Goals
     1. As a Returning Visitor, I want to be able to access and view the businesses' services quickly and easily.
+    - These are clearly shown in the Services section, which is also linked in the fixed header.
     2. As a Returning Visitor, I want to be able to contact the business to request a service or ask questions.
+    - The navigation bar clearly highlights the Contact section.
+    - Here they can fill out the form on the page.
+    - The footer contains links to the organisations Instagram, and contains the the organisation's email address and telephone number.
+    - Whichever Instagram link they click (navigation or footer), it will be open up in a new tab to ensure the user can easily get back to the website.
 - #### Frequent User Goals
     1. As a Frequent User, I want to be to view newly added examples of the businesses' portfolio of work.
+    - The user would already be comfortable with the website layout and can easily click the Instagram links.
     2. As a Frequent User, I want to be able to check new services the business offers.
-    2. As a Frequent User, I want to be able to contact the business to request a service, ask questions, follow-up on existing communications, or leave feedback.
+    - The user would already be comfortable with the website layout and can easily navigate to the Services section by scrolling or clicking on the link in the navigation.
+    3. As a Frequent User, I want to be able to contact the business to request a service, ask questions, follow-up on existing communications, or leave feedback.
+    - The user would already be comfortable with the website layout and can easily fill in the form, or use the contact details in the footer to email or telephone the business.
 ## Deployment
 ### GitHub Pages
 The project was deployed to GitHub Pages using the following steps...
