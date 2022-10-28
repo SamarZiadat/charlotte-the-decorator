@@ -216,10 +216,15 @@ background: url('../images/client-portrait.jpg') no-repeat center center;
 background-size: 100%;
 }
 /* services */
-table {
-padding: 1em;
+#services-section {
 display: flex;
 flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+table {
+padding: 1em;
+width: 50%;
 }
 tr:nth-child(even) {
 background-color: rgb(222, 117, 68, 0.1);
