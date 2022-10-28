@@ -259,12 +259,16 @@ table {
     flex-direction: column;
 }
 
-th {
-    text-align: left;
-}
-
 tr:nth-child(even) {
     background-color: rgb(222, 117, 68, 0.1);
+}
+
+th {
+    color: #609BA7;
+    text-transform: uppercase;
+    font-size: 100%;
+    letter-spacing: 0.10em;
+    text-align: left;
 }
 
 /* testimonials */
@@ -284,18 +288,19 @@ i {
 
 /* contact form */
 
+#contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 form {
     background-color: rgb(222, 117, 68, 0.1);
     padding: 1em;
     border: 2px solid rgb(222, 117, 68, 0.7);
     border-radius: 4px;
-}
-
-th {
-    color: #609BA7;
-    text-transform: uppercase;
-    font-size: 100%;
-    letter-spacing: 0.10em;
+    width: 60%;
 }
 
 input, textarea {
