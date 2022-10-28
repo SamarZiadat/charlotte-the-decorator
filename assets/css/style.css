@@ -56,10 +56,9 @@ text-align: center;
 position: fixed;
 z-index: 999;
 width: 100%;
-padding: 0 100px 0 100px;
 }
 #logo {
-height: 7em;
+height: 5em;
 }
 /* The approach I have taken by using a checkbox to create dropdown navigation without Javascript is unusual.
 This unique dropdown menu was created with guidance from Kevin Powell's tutorial 

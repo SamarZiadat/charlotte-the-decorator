@@ -31,8 +31,14 @@ Imagery is important. The large, background hero image is designed to be strikin
 ### Wireframes
 
 ## Features 
-- Responsive on all device sizes
-- Interactive elements
+### Existing Features
+ - F01 Navigation Menu
+ - F02 Hero Image
+ - F03 About Section
+ - F04 Services Section
+ - F05 Testimonials Section
+ - F06 Contact Form
+ - F07 Footer
 
 ## Technologies Used
 
