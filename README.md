@@ -116,14 +116,19 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 6. Type ```git clone```, and then paste the URL you copied in Step 3.
 ```$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY```
 7. Press Enter. Your local clone will be created.
-```$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.```
-Click [Here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+## Credits 
+### Content
+All content was written by the developer
+###Code
+- Code on how to make responsive drop-down navigation menus without JavaScript came from instructions on this video: (https://www.youtube.com/watch?v=8QKOaTYvYUA)
+- Code on how to style forms with CSS was based on [W3Schools CSS Froms Tutorial](https://www.w3schools.com/css/css_form.asp)
+- Code on how to style tables with CSS was based on [W3Schools CSS Tables Tutorial](https://www.w3schools.com/css/css_table.asp)
+- The icons in the testimonials section, about section, and footer were taken from [Font Awesome](https://fontawesome.com/)
+-The font used were imported from [Google Fonts](https://fonts.google.com/)
+- All images were taken by the client. 
 
+Acknowledgments
+Thank you to my mentor Brian Macharia who gave me very excellent advice and feedback on how to plan and execute this project and who provided me with lots of pointers on resources to help with design, coding and testing.
 
 
 
