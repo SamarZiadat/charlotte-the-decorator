@@ -14,7 +14,7 @@ body {
     max-width: 2000px;
     margin-right: auto;
     margin-left: auto;
-}
+} 
 
 /* sections */
 
@@ -58,77 +58,102 @@ h3 {
 
 /* navigation */
 
-header{
-    left: 0;
+header {
+    background: white;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
     width: 100%;
-    background-color: white;
-    height: 7em;
-    position: sticky;
-    top: 0;
-}
-
-nav {
-    max-width: 2000px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0 2em 0 2em;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#index-link {
-    display: flex;
 }
 
 #logo {
     height: 7em;
 }
 
-#menu {
-    font-size: 100%;
-    letter-spacing: 0.10em;
-    height: 7em;
-}
-
-@media only screen and (max-width: 1000px) {
-    #menu {
-        font-size: 80%;
-        letter-spacing: 0.10em;
-        height: 9em;
-        text-align: right;
-    }
+.nav-toggle {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
   }
-
-#menu {
+  
+  .nav-toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    height: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    list-style-type: none;
-    gap: 2em;
-    margin-left: auto;
-}
-
-@media only screen and (max-width: 1000px) {
-    #menu {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: stretch;
-        list-style-type: none;
-        gap: 0;
-    }
   }
-
-#menu a {
-    text-decoration: none;
+  
+  .nav-toggle-label span,
+  .nav-toggle-label span::before,
+  .nav-toggle-label span::after {
+    display: block;
+    background: #609BA7;
+    height: 3px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+  }
+  
+  .nav-toggle-label span::before,
+  .nav-toggle-label span::after {
+    content: '';
+    position: absolute;
+  }
+  
+  .nav-toggle-label span::before {
+    bottom: 7px;
+  }
+  
+  .nav-toggle-label span::after {
+    top: 7px;
+  }
+  
+  nav {
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background: white;
+    width: 100%;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-bottom: 1em;
+    margin-left: 1em;
+  }
+  
+  nav a {
     color: #609BA7;
+    text-decoration: none;
     text-transform: uppercase;
-}
-
-#menu a:hover {
-    border-bottom: 2px solid #609BA7;
-}
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #4d4d4d;
+  }
+  
+  .nav-toggle:checked ~ nav {
+    transform: scale(1,1);
+  }
+  
+  .nav-toggle:checked ~ nav a {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+  }
 
 /* hero image */
 

@@ -38,11 +38,11 @@ Imagery is important. The large, background hero image is designed to be strikin
 
 ## Technologies Used
 
-## Languages Used
+### Languages Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-## Frameworks, Libraries & Programs Used
+### Frameworks, Libraries & Programs Used
 1. [Hover.css](https://ianlunn.github.io/Hover/):
     - Hover.css was used on the navigation links in the header and Social Media link in the footer to add the underline while being hovered over.
 2. [Google Fonts](https://fonts.google.com/):
