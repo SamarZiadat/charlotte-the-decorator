@@ -1,321 +1,377 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&display=swap');
+
 * {
-margin: 0;
-padding: 0;
-border: none;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
 }
+
 body {
-font-family: Cantarell, sans-serif;
-font-weight: 600;
-font-size: 100%;
-color: #4d4d4d;
-max-width: 2000px;
-margin-right: auto;
-margin-left: auto;
+  font-family: Cantarell, sans-serif;
+  font-weight: 600;
+  font-size: 100%;
+  color: #4d4d4d;
+  max-width: 2000px;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 @media only screen and (max-width: 1000px) {
-p {
-text-align: justify;
+  p {
+    text-align: justify;
+  }
+
+  footer p {
+    text-align: center;
+  }
 }
-footer p {
-text-align: center;
-}
-}
+
 /* sections */
 section {
-width: 100%;
-padding-left: 25px !important;
-padding-right: 25px !important;
-padding-top: 4em;
-padding-bottom: 7em;
+  width: 100%;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  padding-top: 4em;
+  padding-bottom: 7em;
 }
+
 .teal-section {
-background: rgb(96, 155, 167, 0.2); 
+  background: rgb(96, 155, 167, 0.2);
 }
+
 /* headings */
 #header-h1 {
-display: none;
+  display: none;
 }
+
 h2 {
-color: #DE7544;
-text-transform: uppercase;
-text-align: center;
-letter-spacing: 0.10em;
-padding: 2em 0 3em 0;
+  color: #DE7544;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.10em;
+  padding: 2em 0 3em 0;
 }
+
 h3 {
-color: #609BA7;
-text-transform: uppercase;
-font-size: 100%;
-letter-spacing: 0.10em;
+  color: #609BA7;
+  text-transform: uppercase;
+  font-size: 100%;
+  letter-spacing: 0.10em;
 }
+
 /* navigation */
 header {
-background: white;
-text-align: center;
-position: fixed;
-z-index: 999;
-width: 100%;
+  background: white;
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
 }
+
 #logo {
-height: 5em;
+  height: 5em;
 }
+
 /* The approach I have taken by using a checkbox to create dropdown navigation without Javascript is unusual.
 This unique dropdown menu was created with guidance from Kevin Powell's tutorial 
 on youtube (https://www.youtube.com/watch?v=8QKOaTYvYUA) titled "Create a responsive 
 navigation nav with no JS!" */
 .nav-toggle {
-position: absolute !important;
-top: -9999px !important;
-left: -9999px !important;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
 }
+
 .nav-toggle-label {
-position: absolute;
-top: 0;
-left: 0;
-margin-left: 1em;
-height: 100%;
-display: flex;
-align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1em;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
+
 .nav-toggle-label span,
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
-display: block; 
-background: #609BA7;
-height: 3px;
-width: 2em;
-border-radius: 2px;
-position: relative;
+  display: block;
+  background: #609BA7;
+  height: 3px;
+  width: 2em;
+  border-radius: 2px;
+  position: relative;
 }
+
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
-content: '';
-position: absolute;
+  content: '';
+  position: absolute;
 }
+
 .nav-toggle-label span::before {
-bottom: 7px;
+  bottom: 7px;
 }
+
 .nav-toggle-label span::after {
-top: 7px;
+  top: 7px;
 }
+
 nav {
-position: absolute;
-text-align: left;
-top: 100%;
-left: 0;
-background: white;
-width: 100%;
-transform: scale(1, 0);
-transform-origin: top;
-transition: transform 400ms ease-in-out;
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  left: 0;
+  background: white;
+  width: 100%;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
 }
+
 nav ul {
-margin: 0;
-padding: 0;
-list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
+
 nav li {
-margin-bottom: 1em;
-margin-left: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
 }
+
 nav a {
-color: #609BA7;
-text-decoration: none;
-text-transform: uppercase;
-opacity: 0;
-transition: opacity 150ms ease-in-out;
+  color: #609BA7;
+  text-decoration: none;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
 }
+
 nav a:hover {
-color: #4d4d4d;
+  color: #4d4d4d;
 }
-.nav-toggle:checked ~ nav {
-transform: scale(1,1);
+
+.nav-toggle:checked~nav {
+  transform: scale(1, 1);
 }
-.nav-toggle:checked ~ nav a {
-opacity: 1;
-transition: opacity 250ms ease-in-out 250ms;
+
+.nav-toggle:checked~nav a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out 250ms;
 }
+
 @media screen and (min-width: 1000px) {
-.nav-toggle-label {
-display: none;
+  .nav-toggle-label {
+    display: none;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+  }
+
+  .logo {
+    grid-column: 2 / 3;
+  }
+
+  nav {
+    position: relative;
+    text-align: left;
+    transition: none;
+    transform: scale(1, 1);
+    background: none;
+    top: initial;
+    left: initial;
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  nav li {
+    margin-left: 2em;
+    margin-bottom: 0;
+  }
+
+  nav a {
+    opacity: 1;
+    position: relative;
+  }
+
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background: black;
+    position: absolute;
+    top: -.75em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+  }
 }
-header {
-display: grid;
-grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
-}
-.logo {
-grid-column: 2 / 3;
-}
-nav {
-position: relative;
-text-align: left;
-transition: none;
-transform: scale(1,1);
-background: none;
-top: initial;
-left: initial;
-grid-column: 3 / 4;
-display: flex;
-justify-content: flex-end;
-align-items: center;
-}
-nav ul {
-display: flex;
-}
-nav li {
-margin-left: 2em;
-margin-bottom: 0;
-}
-nav a {
-opacity: 1;
-position: relative;}
-nav a::before {
-content: '';
-display: block;
-height: 5px;
-background: black;
-position: absolute;
-top: -.75em;
-left: 0;
-right: 0;
-transform: scale(0, 1);
-transition: transform ease-in-out 250ms;
-}
-}
+
 /* hero image */
 #hero-section {
-padding-left: 0 !important;
-padding-right: 0 !important;
-padding-top: 0 !important;
-padding-bottom: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
+
 #hero-image {
-height: 100vw;
-max-height: 500px;
-min-height: 350px;
-background: url('../images/hero-image.jpg') no-repeat center center;
-background-size: cover;
+  height: 100vw;
+  max-height: 500px;
+  min-height: 350px;
+  background: url('../images/hero-image.jpg') no-repeat center center;
+  background-size: cover;
 }
+
 /* about */
 #about-image {
-min-height: 14em;
-min-width: 10em;
-background: url('../images/client-portrait.jpg') no-repeat center center;
-background-size: 100%;
+  min-height: 14em;
+  min-width: 10em;
+  background: url('../images/client-portrait.jpg') no-repeat center center;
+  background-size: 100%;
 }
+
 #columns {
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
 }
+
 @media only screen and (max-width: 1000px) {
-#about-image {
-min-height: 25em;
-min-width: 18em;
-background: url('../images/client-portrait.jpg') no-repeat center center;
-background-size: 100%;
+  #about-image {
+    min-height: 25em;
+    min-width: 18em;
+    background: url('../images/client-portrait.jpg') no-repeat center center;
+    background-size: 100%;
+  }
+
+  #columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2em;
+  }
 }
-#columns {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: center;
-gap: 2em;
-}
-}
+
 #about-text {
-min-height: 10em;
-width: 80%;
-z-index: -1;
+  min-height: 10em;
+  width: 80%;
+  z-index: -1;
 }
+
 /* services */
 #services-section {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 table {
-padding: 1em 0;
-width: 50%;
-min-width: 320px;
+  padding: 1em 0;
+  width: 50%;
+  min-width: 320px;
 }
+
 tr:nth-child(even) {
-background-color: rgb(222, 117, 68, 0.1);
+  background-color: rgb(222, 117, 68, 0.1);
 }
+
 th {
-color: #609BA7;
-text-transform: uppercase;
-font-size: 100%;
-letter-spacing: 0.10em;
-text-align: left;
+  color: #609BA7;
+  text-transform: uppercase;
+  font-size: 100%;
+  letter-spacing: 0.10em;
+  text-align: left;
 }
+
 /* testimonials */
 .container {
-padding: 1em 1em;
-font-style: italic;
+  padding: 1em 1em;
+  font-style: italic;
 }
+
 .author {
-font-style: normal;
+  font-style: normal;
 }
+
 i {
-color: rgb(96, 155, 167);
+  color: rgb(96, 155, 167);
 }
+
 /* contact form */
 #contact-section {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 form {
-background-color: rgb(222, 117, 68, 0.1);
-padding: 1em;
-border: 2px solid rgb(222, 117, 68, 0.7);
-border-radius: 4px;
-width: 60%;
-min-width: 320px;
+  background-color: rgb(222, 117, 68, 0.1);
+  padding: 1em;
+  border: 2px solid rgb(222, 117, 68, 0.7);
+  border-radius: 4px;
+  width: 60%;
+  min-width: 320px;
 }
-input, textarea {
-width: 100%;
-padding: 8px 14px;
-box-sizing: border-box;
-margin: 10px 0;
-border: 2px solid rgb(222, 117, 68, 0.7);
-border-radius: 4px;
-font-family: Cantarell, sans-serif;
-font-weight: 600;
-font-size: 100%;
-color: #4d4d4d;
-resize: none;
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px 14px;
+  box-sizing: border-box;
+  margin: 10px 0;
+  border: 2px solid rgb(222, 117, 68, 0.7);
+  border-radius: 4px;
+  font-family: Cantarell, sans-serif;
+  font-weight: 600;
+  font-size: 100%;
+  color: #4d4d4d;
+  resize: none;
 }
+
 input[type=submit] {
-background-color: rgb(222, 117, 68, 0.8);
-cursor: pointer;
-color: white;
+  background-color: rgb(222, 117, 68, 0.8);
+  cursor: pointer;
+  color: white;
 }
+
 /* footer */
 footer {
-max-width: 2000px;
-margin-right: auto;
-margin-left: auto;
-width: 100vw;
-background-color: rgb(96, 155, 167, 0.2); 
-text-align: center;
-padding: 30px 0 30px 0;
+  max-width: 2000px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100vw;
+  background-color: rgb(96, 155, 167, 0.2);
+  text-align: center;
+  padding: 30px 0 30px 0;
 }
+
 #footer-heading {
-color: #4d4d4d;
+  color: #4d4d4d;
 }
+
 #instagram-link {
-text-decoration: none;
-color: #4d4d4d;
+  text-decoration: none;
+  color: #4d4d4d;
 }
+
 #instagram-link:hover {
-border-bottom: 2px solid #4d4d4d;
+  border-bottom: 2px solid #4d4d4d;
 }
