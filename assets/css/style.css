@@ -234,8 +234,9 @@ justify-content: center;
 align-items: center;
 }
 table {
-padding: 1em;
+padding: 1em 0;
 width: 50%;
+min-width: 310px;
 }
 tr:nth-child(even) {
 background-color: rgb(222, 117, 68, 0.1);
