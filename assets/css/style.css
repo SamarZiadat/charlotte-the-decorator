@@ -272,6 +272,7 @@ padding: 1em;
 border: 2px solid rgb(222, 117, 68, 0.7);
 border-radius: 4px;
 width: 60%;
+min-width: 250px;
 }
 input, textarea {
 width: 100%;
