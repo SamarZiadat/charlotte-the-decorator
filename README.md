@@ -107,11 +107,18 @@ Charlotte J. Sammons Interior Decorating is a website that aims to keep clients 
 
 ## Testing
 
+### Validator Testing 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors in the project.
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - [Results](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/validation-results/css-validator-results.pdf)
 
-- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
-- [W3C Markup Validation Service](https://validator.w3.org/)
-  
+![CSS validator results](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/validation-results/css-validator-results-screenshot.png?raw=true)
+
+- [W3C Markup Validation Service](https://validator.w3.org/) - [Results](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/validation-results/html-validator-results.pdf)
+
+![HTML validator results ](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/validation-results/html-validator-results-screenshot.png?raw=true)
+ 
+The warning is due to there being no heading in the host image section of the html (which has a div with an id tag).
+
 ### Testing User Stories from User Experience (UX) Section
 
 -  #### First Time Visitor Goals
@@ -226,4 +233,4 @@ All content was written by the developer
 
 ### Acknowledgments
 
-Thank you to my mentor Brian Macharia who gave me very excellent advice and feedback on how to plan and execute this project and who provided me with lots of pointers and resources to help with design, coding and testing. 
+Thank you to my mentor Brian Macharia who gave me very excellent advice and feedback on how to plan and execute this project and who provided me with lots of pointers and resources to help with design, coding and testing. g. 
