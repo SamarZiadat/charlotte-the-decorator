@@ -89,7 +89,7 @@ Charlotte J. Sammons Interior Decorating is a website that aims to keep clients 
 		- Further text about the business if the user would like to know more 
 	- This section is responsive with the use of flexbox; the image and text change size and placement on different screen sizes 
 ![About section as viewed on laptop](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/wide-about.png?raw=true)
-![About section as viewed on a narrow screen](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/small-about.png?raw=true)
+
 - **F04 Services Section**
 	- Two tables are used to display the services that the business provides in a clear and organised way
 	- These tables are stacked using flexbox to limit how much information is taken in by the user at once, reducing overwhelm 
@@ -110,6 +110,7 @@ Charlotte J. Sammons Interior Decorating is a website that aims to keep clients 
 		-   A call to action to 'Get in touch' which is the central way that this business sells its services 
 	    -  Essential contact details for the business including the email address and telephone number, giving users an alternative way to get in touch outside of filling in the from
 		-   An external link to the business' portfolio of work on instagram (this opens in a separate tab so the user easily returns to the website to get in touch after viewing examples of the business' work)
+
 ![enter image description here](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/footer.png?raw=true)
 
 ### Features which could be implemented in the future
