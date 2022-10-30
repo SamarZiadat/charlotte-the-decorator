@@ -2,7 +2,7 @@
 
 [View the live project here](https://samarziadat.github.io/charlotte-the-decorator/)
 
-Charlotte J. Sammons Interior Decorating is a website that aims to keep clients informed about this painting and decorating business. The website will be targetted towards potential and existing clients who are looking to have their residential or commercial properties redecorated in Glasgow, Scotland. Charlotte J. Sammons Interior Decorating will function as the one-stop location for prospective and repeat clients to keep up-to-date with all the available information about the business and its services.
+Charlotte J. Sammons Interior Decorating is a website that aims to keep clients informed about this painting and decorating business. The website will be targeted towards potential and existing clients who are looking to have their residential or commercial properties redecorated in Glasgow, Scotland. Charlotte J. Sammons Interior Decorating will function as the one-stop location for prospective and repeat clients to keep up-to-date with all the available information about the business and its services.
 ![Responsive Mockup](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/respo-mockup.png?raw=true)
 
 ## Table of Contents
@@ -106,6 +106,7 @@ Charlotte J. Sammons Interior Decorating is a website that aims to keep clients 
 		-   A call to action to 'Get in touch' which is the central way that this business sells its services 
 	    -  Essential contact details for the business including the email address and telephone number, giving users an alternative way to get in touch outside of filling in the from
 		-   An external link to the business' portfolio of work on instagram (this opens in a separate tab so the user easily returns to the website to get in touch after viewing examples of the business' work)
+
 ![enter image description here](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/footer.png?raw=true)
 
 ### Features which could be implemented in the future
@@ -222,31 +223,60 @@ The warning is due to there being no heading in the host image section of the ht
 
 ## Deployment
 
-### GitHub Pages
 
-The project was deployed to GitHub Pages using the following steps;
+### Adding and Committing files
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+To add files to the repository take the following steps
 
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+In the command line type - git add .  
+git commit -m "This is being committed" git push
 
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+To add all new files or modified file use " ." - To add a single file use the pathway to the file eg .index.html or assets/css/style.css When committing make sure your comments are clear about what changes have been made. Pushing will send your work to the repository
 
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
+### Deployment
 
-5. The page will automatically refresh.
+The project was deployed with the following steps
 
-6. Scroll back down through the page to locate the now published site [link](https://samarziadat.github.io/charlotte-the-decorator/) in the "GitHub Pages" section.
+-   Logged into git hub
+-   Clicked the "Settings" button in the menu above the Repository.
+-   Scroll down the Settings page to the "GitHub Pages" Section.
+-   Under "Source", click the dropdown called "None" and then select "Master Branch".
+-   The page will automatically refresh, and a link displaced. It may take some time for the link to show the website.
+-   If the page will not load go down to "template" under the "source" and select a template.
+-   Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
-### Forking the GitHub Repository
+### Forking
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
+Forking the GitHub Repository
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+By forking the GitHub Repository, you can make a copy of the original repository in your own GitHub account. This means we can view or make changes without making the changes affecting the original.
 
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+-   Log into GitHub and locate the GitHub Repository.
+-   At the top of the Repository there is a "Fork" button about the "Settings" button on the menu.
+-   You should now have a new copy of the original repository in your own GitHub account.
 
-3. You should now have a copy of the original repository in your GitHub account.
+### Cloning
+
+Making a Local Clone
+
+-   Log into your GitHub then find the gitpod repository
+-   Under the repository name there is a button that says "Clone or download". Click on this button.
+-   If cloning with HTTPS "Clone with HTTPS", copy this link.  
+-   Open Gitbash
+-   Change the current working directory to the location where you want the cloned directory to be.
+-   Type git clone, and then paste the URL you copied earlier.
+    ```
+      $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+      Press - Enter- Your local clone will be created.
+      $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+              > Cloning into `CI-Clone`...
+              > remote: Counting objects: 10, done.
+              > remote: Compressing objects: 100% (8/8), done.
+              > remove: Total 10 (delta 1), reused 10 (delta 1)
+              > Unpacking objects: 100% (10/10), done.
+    
+    ```
+[Click Here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)  for more info on cloning.
 
 ## Credits
 
