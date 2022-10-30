@@ -230,7 +230,7 @@ nav a:hover {
   height: 100vw;
   max-height: 500px;
   min-height: 350px;
-  background: url('../images/hero-image-compressed.jpg') no-repeat center center;
+  background: url('../images/hero-image.webp') no-repeat center center;
   background-size: cover;
 }
 
@@ -238,7 +238,7 @@ nav a:hover {
 #about-image {
   min-height: 14em;
   min-width: 10em;
-  background: url('../images/client-portrait-compressed.jpg') no-repeat center center;
+  background: url('../images/client-portrait.webp') no-repeat center center;
   background-size: 100%;
 }
 
@@ -254,7 +254,7 @@ nav a:hover {
   #about-image {
     min-height: 25em;
     min-width: 18em;
-    background: url('../images/client-portrait-compressed.jpg') no-repeat center center;
+    background: url('../images/client-portrait.webp') no-repeat center center;
     background-size: 100%;
   }
 
