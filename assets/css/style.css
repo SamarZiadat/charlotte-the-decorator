@@ -27,6 +27,10 @@ body {
   }
 }
 
+#hidden-span {
+  color: white;
+}
+
 /* sections */
 section {
   width: 100%;
