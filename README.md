@@ -156,6 +156,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
  
 The warning is due to there being no heading in the host image section of the html (which has a div with an id tag).
 
+### Lighthouse Test
+[Google's web.dev page quality test](https://web.dev/measure/) was used to measure the website against performance, accessibility, SEO and best practice. 
+
+ - **Performance** 
+
 ### Testing User Stories from User Experience (UX) Section
 
 -  #### First Time Visitor Goals
