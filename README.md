@@ -6,9 +6,12 @@ Charlotte J. Sammons Interior Decorating is a website that aims to keep clients 
 ![Responsive Mockup](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/respo-mockup.png?raw=true)
 
 ## Table of Contents
-
-
-  
+-   [User Experience (UX)](https://github.com/SamarZiadat/charlotte-the-decorator#user-experience-ux)
+-   [Features](https://github.com/SamarZiadat/charlotte-the-decorator#features)
+-   [Technologies Used](https://github.com/SamarZiadat/charlotte-the-decorator#technologies-used)
+-   [Testing](https://github.com/SamarZiadat/charlotte-the-decorator#testing)
+-   [Deployment](https://github.com/SamarZiadat/charlotte-the-decorator#deployment)
+-   [Credits](https://github.com/SamarZiadat/charlotte-the-decorator#credits)
 
 ## User experience (UX)
 
@@ -69,10 +72,15 @@ Charlotte J. Sammons Interior Decorating is a website that aims to keep clients 
 		- Links to the About, Services, Testimonials and Contact sections
 		- An external link to the company Instagram (which opens in a separate tab)
 
+![Navigation bar](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/wide-nav.png?raw=true)
+
+![Navigation drop-down](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/dropdown-menu.png?raw=true)
 - **F02 Hero Image**
-	-   The landing area includes a hero image from the business' portfolio of work, which helps to identify the purpose of the business and the type of services it sells. 
+	-   The hero image is an impressive photograph from the business' portfolio of work, which helps to identify the purpose of the business and the type of services it sells. 
 	- The image is responsive, and so changes size and shape on different screen sizes (e.g. on mobile devices it becomes a small square)
-	
+
+![Laptop view of hero image](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/wide-hero.png?raw=true)
+![View of hero-image on a narrow screen](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/small-hero.png?raw=true)	
 - **F03 About Section**
 	- The about section is directly under the hero image, and is the first section where the user comes across significant text. 
 	- It includes: 
@@ -80,23 +88,29 @@ Charlotte J. Sammons Interior Decorating is a website that aims to keep clients 
 		- Short, snappy sentences (featuring icons) about the business owner's qualifications, experience, certification and insurance, which reassures the user of business owner's skills, experience and training
 		- Further text about the business if the user would like to know more 
 	- This section is responsive with the use of flexbox; the image and text change size and placement on different screen sizes 
-
+![About section as viewed on laptop](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/wide-about.png?raw=true)
+![About section as viewed on a narrow screen](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/small-about.png?raw=true)
 - **F04 Services Section**
 	- Two tables are used to display the services that the business provides in a clear and organised way
 	- These tables are stacked using flexbox to limit how much information is taken in by the user at once, reducing overwhelm 
+![Services section as viewed on laptop](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/wide-services.png?raw=true)
 
 - **F05 Testimonials Section**
-This section includes three testimonials from past customers, including their written review, their rating out of 5 stars using icons from front awesome, and the first name of the customer. These testimonials speak to the reputation of the business, and further reinforces the friendly and helpful service provided.
+	- This section includes three testimonials from past customers, including their written review, their rating out of 5 stars using icons from front awesome, and the first name of the customer. 
+	- These testimonials speak to the reputation of the business, and further reinforces the friendly and helpful service provided.
+
+![Testimonials as viewed on laptop](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/wide-testimonials.png?raw=true)
 
 - **F06 Contact Form**
 	- The Contact section of the website allows the user to send a message/give feedback to the business. The user is asked to provide their name and email address when sending a message. Sending the message will result in a new tab showing the results (at the moment the user is simply shown the formdump.codeinstitute.net page with the data they submitted displayed)
 	- This form is essential, as it allows the user to request quotes or estimates for the business' services, as well as request more information about these services 
-
+![Contact form as viewed on lapt](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/wide-contact.png?raw=true)
 - **F07 Footer**
-- The footer is featured at the bottom of the page and features:
-	-   A call to action to 'Get in touch' which is the central way that this business sells its services 
-    -  Essential contact details for the business including the email address and telephone number, giving users an alternative way to get in touch outside of filling in the from
-	-   An external link to the business' portfolio of work on instagram (this opens in a separate tab so the user easily returns to the website to get in touch after viewing examples of the business' work)
+	- The footer is featured at the bottom of the page and features:
+		-   A call to action to 'Get in touch' which is the central way that this business sells its services 
+	    -  Essential contact details for the business including the email address and telephone number, giving users an alternative way to get in touch outside of filling in the from
+		-   An external link to the business' portfolio of work on instagram (this opens in a separate tab so the user easily returns to the website to get in touch after viewing examples of the business' work)
+![enter image description here](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/footer.png?raw=true)
 
 ### Features which could be implemented in the future
 -   **Navigation menu improvements**
@@ -203,18 +217,12 @@ The warning is due to there being no heading in the host image section of the ht
     -   Edge Version 107.0.1418.24
     -   Firefox Version 94.0.1
     -   Safari on macOS (Safari Version 15.6)
-    - 
+    
 ### Test Cases and Results
 
 -   The below table details the test cases that were used, the results and a cross-reference to the Feature ID that each test case exercised (click image to open):
 
 ![Test case and results table](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/testing.png?raw=true)
-
-### Further Testing
--   The Website was tested on Google Chrome, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 13 mini.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ## Deployment
 
