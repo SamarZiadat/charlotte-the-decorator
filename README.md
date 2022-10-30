@@ -60,21 +60,47 @@ Charlotte J. Sammons Interior Decorating is a website that aims to keep clients 
 
 ### Existing Features
 
-- F01 Navigation Menu
+- **F01 Navigation Bar**
 
-- F02 Hero Image
+	-   The navigation bar is responsive supporting easy navigation. On small screens (e.g. on mobile devices it becomes a hamburger menu)
+	- The colours used in the navigation bar/hamburger menu draw from the colours used in the logo for consistency (this colour scheme also carries on throughout the rest of the website)
+	- The navigation includes: 
+		- The business' Logo (which links back to the top of the page when scrolling)
+		- Links to the About, Services, Testimonials and Contact sections
+		- An external link to the company Instagram (which opens in a separate tab)
 
-- F03 About Section
+- **F02 Hero Image**
+	-   The landing area includes a hero image from the business' portfolio of work, which helps to identify the purpose of the business and the type of services it sells. 
+	- The image is responsive, and so changes size and shape on different screen sizes (e.g. on mobile devices it becomes a small square)
+	
+- **F03 About Section**
+	- The about section is directly under the hero image, and is the first section where the user comes across significant text. 
+	- It includes: 
+		- A smiling portrait of he business owner, which reinforces the business' friendly and approachable take to its services
+		- Short, snappy sentences (featuring icons) about the business owner's qualifications, experience, certification and insurance, which reassures the user of business owner's skills, experience and training
+		- Further text about the business if the user would like to know more 
+	- This section is responsive with the use of flexbox; the image and text change size and placement on different screen sizes 
 
-- F04 Services Section
+- **F04 Services Section**
+	- Two tables are used to display the services that the business provides in a clear and organised way
+	- These tables are stacked using flexbox to limit how much information is taken in by the user at once, reducing overwhelm 
 
-- F05 Testimonials Section
+- **F05 Testimonials Section**
+This section includes three testimonials from past customers, including their written review, their rating out of 5 stars using icons from front awesome, and the first name of the customer. These testimonials speak to the reputation of the business, and further reinforces the friendly and helpful service provided.
 
-- F06 Contact Form
+- **F06 Contact Form**
+	- The Contact section of the website allows the user to send a message/give feedback to the business. The user is asked to provide their name and email address when sending a message. Sending the message will result in a new tab showing the results (at the moment the user is simply shown the formdump.codeinstitute.net page with the data they submitted displayed)
+	- This form is essential, as it allows the user to request quotes or estimates for the business' services, as well as request more information about these services 
 
-- F07 Footer
+- **F07 Footer**
+- The footer is featured at the bottom of the page and features:
+	-   A call to action to 'Get in touch' which is the central way that this business sells its services 
+    -  Essential contact details for the business including the email address and telephone number, giving users an alternative way to get in touch outside of filling in the from
+	-   An external link to the business' portfolio of work on instagram (this opens in a separate tab so the user easily returns to the website to get in touch after viewing examples of the business' work)
 
-  
+### Features which could be implemented in the future
+-   **Navigation menu improvements**
+    -   The functionality and visuals of the navigation bar could be improved by using JavaScript to build a more sophisticated hamburger menu.
 
 ## Technologies Used
 
@@ -170,6 +196,19 @@ The warning is due to there being no heading in the host image section of the ht
 	iii. As a Frequent User, I want to be able to contact the business to request a service, ask questions, follow-up on existing communications, or leave feedback.
 
 		a. The user would already be comfortable with the website layout and can easily fill in the form, or use the contact details in the footer to email or telephone the business.
+		
+### Browser Compatibility
+-   Testing has been carried out on the following browsers :
+    -   Chrome Version 107.0.5304.87
+    -   Edge Version 107.0.1418.24
+    -   Firefox Version 94.0.1
+    -   Safari on macOS (Safari Version 15.6)
+    - 
+### Test Cases and Results
+
+-   The below table details the test cases that were used, the results and a cross-reference to the Feature ID that each test case exercised (click image to open):
+
+![Test case and results table](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/testing.png?raw=true)
 
 ### Further Testing
 -   The Website was tested on Google Chrome, Microsoft Edge and Safari browsers.
@@ -233,4 +272,4 @@ All content was written by the developer
 
 ### Acknowledgments
 
-Thank you to my mentor Brian Macharia who gave me very excellent advice and feedback on how to plan and execute this project and who provided me with lots of pointers and resources to help with design, coding and testing. g. 
+Thank you to my mentor Brian Macharia who gave me very excellent advice and feedback on how to plan and execute this project and who provided me with lots of pointers and resources to help with design, coding and testing. 
