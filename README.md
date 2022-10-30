@@ -160,7 +160,25 @@ The warning is due to there being no heading in the host image section of the ht
 [Google's web.dev page quality test](https://web.dev/measure/) was used to measure the website against performance, accessibility, SEO and best practice. 
 
  - **Performance** 
+![Lighthouse test performance score](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/lighthouse-performance.png?raw=true)
 
+- **Accessibility** 
+	- *Before*
+	 Initially, accessibility was rated at 84, due to a label in the header having no text:
+`<input  type="checkbox"  id="nav-toggle"  class="nav-toggle"><label  for="nav-toggle"  class="nav-toggle-label"><span  id="hidden-span">nav</span></label>`
+This label is purposefully empty as part of an unusual method for creating a hamburger menu without JavaScript. 
+![Initial lighthouse accessibility rating](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/lighthouse-accessibility-before.png?raw=true)
+	
+	- *After*
+	In order to boost this accessibility score, text was entered into the label, and then styled in white with CSS so as not to disrupt the design of the hamburger menu. The resulting code: `<input  type="checkbox"  id="nav-toggle"  class="nav-toggle"><label  for="nav-toggle"  class="nav-toggle-label"><span  id="hidden-span">nav</span></label>`
+	This boosted the accessibility score from 85 to 96.
+	![Initial lighthouse accessibility rating](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/lighthouse-accessibility-after.png?raw=true)
+
+- **SEO**
+	![SEO lighthouse score](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/lighthouse-seo.png?raw=true)
+
+- **Best Practice**
+	![enter image description here](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/lighthouse-best-practice.png?raw=true)
 ### Testing User Stories from User Experience (UX) Section
 
 -  #### First Time Visitor Goals
