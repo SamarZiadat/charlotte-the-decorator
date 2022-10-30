@@ -56,6 +56,7 @@ Charlotte J. Sammons Interior Decorating is a website that aims to keep clients 
   
 
 - ### Wireframes
+![Wireframes](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/wireframes.png?raw=true)
 
   
 
@@ -71,14 +72,11 @@ Charlotte J. Sammons Interior Decorating is a website that aims to keep clients 
 		- The business' Logo (which links back to the top of the page when scrolling)
 		- Links to the About, Services, Testimonials and Contact sections
 		- An external link to the company Instagram (which opens in a separate tab)
-
 ![Navigation bar](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/wide-nav.png?raw=true)
-
 ![Navigation drop-down](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/dropdown-menu.png?raw=true)
 - **F02 Hero Image**
 	-   The hero image is an impressive photograph from the business' portfolio of work, which helps to identify the purpose of the business and the type of services it sells. 
 	- The image is responsive, and so changes size and shape on different screen sizes (e.g. on mobile devices it becomes a small square)
-
 ![Laptop view of hero image](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/wide-hero.png?raw=true)
 ![View of hero-image on a narrow screen](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/small-hero.png?raw=true)	
 - **F03 About Section**
@@ -89,7 +87,7 @@ Charlotte J. Sammons Interior Decorating is a website that aims to keep clients 
 		- Further text about the business if the user would like to know more 
 	- This section is responsive with the use of flexbox; the image and text change size and placement on different screen sizes 
 ![About section as viewed on laptop](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/wide-about.png?raw=true)
-
+![enter image description here](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/small-about.png?raw=true)
 - **F04 Services Section**
 	- Two tables are used to display the services that the business provides in a clear and organised way
 	- These tables are stacked using flexbox to limit how much information is taken in by the user at once, reducing overwhelm 
@@ -98,7 +96,6 @@ Charlotte J. Sammons Interior Decorating is a website that aims to keep clients 
 - **F05 Testimonials Section**
 	- This section includes three testimonials from past customers, including their written review, their rating out of 5 stars using icons from front awesome, and the first name of the customer. 
 	- These testimonials speak to the reputation of the business, and further reinforces the friendly and helpful service provided.
-
 ![Testimonials as viewed on laptop](https://github.com/SamarZiadat/charlotte-the-decorator/blob/main/documentation/supporting-images/wide-testimonials.png?raw=true)
 
 - **F06 Contact Form**
