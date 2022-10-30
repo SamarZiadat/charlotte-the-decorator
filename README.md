@@ -164,6 +164,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 		a. The user would already be comfortable with the website layout and can easily fill in the form, or use the contact details in the footer to email or telephone the business.
 
+### Further Testing
+-   The Website was tested on Google Chrome, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 13 mini.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
 ## Deployment
 
 ### GitHub Pages
@@ -206,7 +212,7 @@ All content was written by the developer
 
 - Code on how to style tables with CSS was based on [W3Schools CSS Tables Tutorial](https://www.w3schools.com/css/css_table.asp)
 
-- Code on how to use flexbox with CSS was based on [https://css-tricks.com/snippets/css/a-guide-to-flexbox/]
+- Code on how to use flexbox with CSS was based on this guide: [https://css-tricks.com/snippets/css/a-guide-to-flexbox/]
 
 ### Media
 
@@ -220,4 +226,4 @@ All content was written by the developer
 
 ### Acknowledgments
 
-Thank you to my mentor Brian Macharia who gave me very excellent advice and feedback on how to plan and execute this project and who provided me with lots of pointers and resources to help with design, coding and testing.
+Thank you to my mentor Brian Macharia who gave me very excellent advice and feedback on how to plan and execute this project and who provided me with lots of pointers and resources to help with design, coding and testing. 
